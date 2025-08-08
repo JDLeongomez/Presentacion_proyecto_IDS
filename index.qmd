@@ -1,0 +1,123 @@
+---
+title: "Funciones evolutivas del habla dirigida a bebés"
+subtitle: "Atención, preferencias auditivas y desarrollo infantil"
+author: "Juan David Leongómez"
+format: revealjs
+editor: visual
+---
+
+# ¿Qué nos dice una voz?
+
+![](Logo_proyecto.png)
+
+-   Antes de hablar, de caminar o entender palabras, las y los bebés ya **escuchan**.
+-   Nacemos preparados para **conectarnos** con quienes nos cuidan.
+-   Esa conexión ocurre, en gran parte, a través de una voz especial: el habla dirigida a bebés (IDS).
+
+> El IDS no solo es “ternura”. Es una herramienta poderosa de comunicación emocional, social y cognitiva.
+
+------------------------------------------------------------------------
+
+# ¿Por qué importa el IDS?
+
+-   Mejora el apego y la regulación emocional.
+-   Capta la atención del bebé y facilita el aprendizaje del lenguaje.
+-   Es **universal**, está presente en casi todas las culturas.
+-   Tiene propiedades similares al canto, y puede estar en la raíz evolutiva de la música y el lenguaje.
+
+![](Fig1.png)
+
+------------------------------------------------------------------------
+
+# Pregunta central
+
+**¿Cómo influyen las características acústicas del IDS en:**
+
+-   la atención social temprana,
+-   y el desarrollo lingüístico y musical en la infancia?
+
+------------------------------------------------------------------------
+
+# Diseño general del proyecto
+
+Dos estudios complementarios:
+
+## Estudio 1
+
+-   Bebés de 3–9 meses.
+-   Evaluación en laboratorio con eye-tracking, análisis de emociones y ritmo cardíaco.
+
+## Estudio 2
+
+-   Niños/as de 16–23 meses.
+-   Análisis de videos caseros + cuestionarios sobre lenguaje y musicalidad.
+
+------------------------------------------------------------------------
+
+# Metodología: Estudio 1
+
+-   Diseño factorial 2x2x2 (8 condiciones acústicas).
+-   Tamaño muestral: 160 bebés (simulaciones de poder).
+-   Medidas:
+    -   Eye-tracking (fijaciones visuales)
+    -   Expresiones emocionales
+    -   Ritmo cardíaco estimado
+
+![](Fig2.png)
+
+------------------------------------------------------------------------
+
+# Eye-tracking y tecnología
+
+-   Sistema de rastreo ocular infrarrojo de alta precisión.
+-   Validación paralela con cámara web convencional.
+-   Exploramos tecnología accesible, **abierta y escalable**.
+
+![](Fig3.png)
+
+------------------------------------------------------------------------
+
+# Inteligencia artificial
+
+-   Análisis automático de expresiones faciales y emociones.
+-   Estimación del ritmo cardíaco a partir de video (rPPG).
+-   Todo usando herramientas de código abierto.
+
+![](Fig4.png)
+
+------------------------------------------------------------------------
+
+# Estudio 2: Seguimiento en el tiempo
+
+-   Evaluación del desarrollo lingüístico y musical a los 16–23 meses.
+-   Datos recolectados:
+    -   Videos del IDS materno durante el primer año.
+    -   Cuestionarios: CDI y Music\@Home.
+-   Muestra estimada: 480 madres.
+
+![](Fig5.png)
+
+------------------------------------------------------------------------
+
+# Impacto esperado
+
+-   Contribuye a la ciencia del desarrollo, lenguaje y musicalidad.
+-   Aporta evidencia útil para salud materno-infantil y educación inicial.
+-   Modelo replicable y abierto, adaptable a diversos contextos.
+
+------------------------------------------------------------------------
+
+# Redes y transferencia
+
+-   Apoyo internacional: Penn State, OSU
+-   Producción científica (Q1), divulgación pública y apropiación social.
+-   Sitio web, podcast, materiales para cuidadores.
+
+![](Fig6.png)
+
+------------------------------------------------------------------------
+
+# ¡Gracias por escuchar!
+
+-   ¿Preguntas o comentarios?
+-   Contacto: jleongomez\@unbosque.edu.co
