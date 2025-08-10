@@ -1,11 +1,8 @@
 ---
-project:
-  type: website
-output-dir: docs
 title: Funciones evolutivas del habla dirigida a bebés
 subtitle: Impacto en la atención, las preferencias auditivas y el desarrollo lingüístico y musical temprano
 title-slide-attributes:
-  data-background-image: /img/bebe2.jpg
+  data-background-image: img/bebe2.jpg
   data-background-size: contain
   data-background-opacity: "0.6"
 format:
