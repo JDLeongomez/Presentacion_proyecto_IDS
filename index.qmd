@@ -46,7 +46,7 @@ toc: false
 
 ------------------------------------------------------------------------
 
-## ¿Qué nos dice una voz? {auto-animate="true"}
+## ¿Qué nos dice una voz? {auto-animate="true" data-autoslide="1000"}
 
 ------------------------------------------------------------------------
 
@@ -70,7 +70,7 @@ toc: false
 
 ------------------------------------------------------------------------
 
-## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true" data-autoslide="1000"}
 
 ------------------------------------------------------------------------
 
@@ -134,7 +134,7 @@ toc: false
 
 ------------------------------------------------------------------------
 
-## Este proyecto {auto-animate="true"}
+## Este proyecto {auto-animate="true" data-autoslide="1000"}
 
 ------------------------------------------------------------------------
 
