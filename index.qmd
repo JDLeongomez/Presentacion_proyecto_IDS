@@ -2,63 +2,53 @@
 project:
   type: website
 output-dir: docs
+title: Funciones evolutivas del habla dirigida a bebés
+subtitle: Impacto en la atención, las preferencias auditivas y el desarrollo lingüístico y musical temprano
+title-slide-attributes:
+  data-background-image: /img/bebe3.png
+  data-background-size: contain
+  data-background-opacity: "0.6"
 format:
   revealjs:
     logo: img/logo_preview.svg
-    footer: "Juan David Leongómez <span style='font-size: 70%;'>PhD, MSc</span>"
+    footer: "<img src='img/logos_Us.svg' height='30px'/>"
     theme: simple
     center: true
     slide-number: true
     transition: fade
     background-transition: fade
     self-contained: false
-editor: visual
 toc: false
 ---
 
-## Funciones evolutivas del habla dirigida a bebés
+<div style="text-align: center;">
+  <img src="img/logo_preview.svg" width="60%"/>
 
-::::: columns
-::: {.column width="50%"}
-<br><br>
-<span style="font-size: 60%;">
-Impacto en la atención, las preferencias auditivas y el desarrollo lingüístico y musical temprano
-</span>
-:::
-::: {.column width="50%"}
-<img src="img/logo_preview.svg" width="100%"/>
-:::
-:::::
+  <p style="font-size: 50%;">
+    [Juan David Leongómez, Milena Vásquez-Amézquita, Nicolás Ignacio Ramos Rodríguez, 
+    María Catalina Bages Mesa,]{style="color:#7ab7a9;"} [Daniel Toro Avila, Adriana María Cristancho Arévalo,]{style="color:#eb938a;"} [Ruth Stella Chacon Pinilla, Lina Maria Rodríguez Granada, Luz Helena Buitrago León,]{style="color:#7ab7a9;"} [Natalia Moreno-Buitrago, David A. Puts]{style="color:#eb938a;"}
+  </p>
 
-<span style="font-size: 50%;color:#7ab7a9">
-Juan David Leongómez, Milena Vásquez-Amézquita, Nicolás Ignacio Ramos Rodríguez, María Catalina Bages Mesa, Daniel Toro Avila, Adriana María Cristancho Arévalo, Ruth Stella Chacon Pinilla, Lina Maria Rodríguez Granada, Luz Helena Buitrago León, Natalia Moreno-Buitrago, David A. Puts
-</span>
+  <p style="font-size: 70%;">
+    Convocatoria Interna - Investigación Avanzada · 2025
+  </p>
+  
+</div>
 
-<br>
 
-<span style="font-size: 70%;">
-Convocatoria Interna - Investigación Avanzada · 2025
-</span>
+------------------------------------------------------------------------
 
----
+## Habla dirigida a bebés ([IDS]{style="color:#eb938a;"})
 
-## Habla dirigida a bebés <span style="color:#eb938a;">IDS</span>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/O8ETEajtfUs?start=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
-<iframe 
-  width="100%" 
-  height="480" 
-  src="https://www.youtube.com/embed/O8ETEajtfUs?start=11" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen>
 </iframe>
 
----
+------------------------------------------------------------------------
 
 ## ¿Qué nos dice una voz? {auto-animate="true"}
 
----
+------------------------------------------------------------------------
 
 ## ¿Qué nos dice una voz? {auto-animate="true"}
 
@@ -67,52 +57,456 @@ Convocatoria Interna - Investigación Avanzada · 2025
 ::: {.fragment .fade-in}
 -   Nacemos preparados para **conectarnos** con quienes nos cuidan.
 :::
+
 ::: {.fragment .fade-in}
--   Esa conexión ocurre, en gran parte, a través de una voz especial: el habla dirigida a bebés (<span style="color:#eb938a;">IDS</span>).
+-   Esa conexión ocurre, en gran parte, a través de una voz especial: el habla dirigida a bebés ([IDS]{style="color:#eb938a;"}).
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Qué nos dice una voz? {auto-animate="true" background-image="img/bebe1.png" background-size="cover" background-position="center" background-opacity="0.5"}
 
-> El <span style="color:#eb938a;">IDS</span> no solo es "ternura". Es una herramienta poderosa de comunicación emocional, social y cognitiva.
+> El [IDS]{style="color:#eb938a;"} no solo es "ternura". Es una herramienta poderosa de comunicación emocional, social y cognitiva.
 
----
+------------------------------------------------------------------------
 
-## ¿Por qué importa el <span style="color:#eb938a;">IDS</span>? {auto-animate="true"}
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
 
----
+------------------------------------------------------------------------
 
-## ¿Por qué importa el <span style="color:#eb938a;">IDS</span>? {auto-animate="true"}
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
 
--   <span style="color:#7ab7a9;">SUPERVIVENCIA:</span> Mejora el apego y la regulación emocional.
+-   [SUPERVIVENCIA:]{style="color:#7ab7a9;"} Mejora el apego y la regulación emocional.
 
 ::: {.fragment .fade-in}
--   <span style="color:#eb938a;">DESARROLLO:</span> Capta la atención del bebé y facilita el aprendizaje del lenguaje.
+-   [DESARROLLO:]{style="color:#eb938a;"} Capta la atención del bebé y facilita el aprendizaje del lenguaje.
+:::
+
+::: {.fragment .fade-in}
+-   [NECESARIO:]{style="color:#7ab7a9;"} Parece ser **universal**, está presente en todas las culturas y tiene características consistentes.
+:::
+
+::: {.fragment .fade-in}
+-   [EVOLUCIÓN:]{style="color:#eb938a;"} Tiene propiedades similares al canto, y puede estar en la raíz evolutiva de la música y el lenguaje.
+:::
+
+------------------------------------------------------------------------
+
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
+
+-   Las capacidades de los bebés para seguir la mirada y atender a la boca del interlocutor predicen el crecimiento del vocabulario. <br>[[Brooks & Meltzoff, 2008](https://doi.org/10.1017/S030500090700829X); [Çetinçelik et al, 2021](https://doi.org/10.3389/fpsyg.2020.589096); [Fernald et al, 2008](https://doi.org/10.1075/lald.44.06fer); [Tenenbaum et al, 2015](https://doi.org/10.1017/S0305000914000725)]{style="font-size: 50%;"}
+
+------------------------------------------------------------------------
+
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
+
+> Puede estar en la base de la evolución de la musicalidad y el lenguage. 
+
+[[Leongómez et al, 2022](https://doi.org/10.1098/rstb.2020.0391)]{style="font-size: 50%;"}
+
+------------------------------------------------------------------------
+
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
+
+![](img/paper.png){width="70%" style="text-align: center;"}
+
+[[Leongómez et al, 2022](https://doi.org/10.1098/rstb.2020.0391)]{style="font-size: 50%;"}
+
+------------------------------------------------------------------------
+
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
+
+![](img/modelo.svg){width="72%" style="text-align: center;"}
+
+[[Leongómez et al, 2022](https://doi.org/10.1098/rstb.2020.0391)]{style="font-size: 50%;"}
+
+------------------------------------------------------------------------
+
+## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
+
+- En humanos, el **cuidado aloparental** implica que las señales de musicalidad de otros cuidadores potenciales pueden indicar confianza y capacidad para cuidar y vincularse con el bebé.
+
+::: {.fragment .fade-in}
+- Una característica central del [IDS]{style="color:#eb938a;"} es su **alta variabilidad tonal**, por lo que los bebés deberían preferir muestras con variabilidad aumentada frente a las no manipuladas.
+:::
+
+[[Leongómez et al., 2022](https://doi.org/10.1098/rstb.2020.0391)]{style="font-size: 50%;"}
+
+------------------------------------------------------------------------
+
+## Este proyecto {auto-animate="true"}
+
+------------------------------------------------------------------------
+
+## Este proyecto {auto-animate="true"}
+
+**2 estudios**
+
+::: {.fragment}
+-  **Estudio 1:** Efectos de la manipulación acústica del [IDS]{style="color:#eb938a;"} en la atención de bebés en etapa prelingüística
 :::
 ::: {.fragment .fade-in}
--   <span style="color:#7ab7a9;">NECESARIO:</span> Es **universal**, está presente en todas las culturas.
+-  **Estudio 2:** Efectos del [IDS]{style="color:#eb938a;"} en habilidades lingüísticas y musicales posteriores 
+:::
+
+------------------------------------------------------------------------
+
+## Diseño estudio 1 {auto-animate="true"}
+
+-  **Estudio 1:** Efectos de la manipulación acústica del [IDS]{style="color:#eb938a;"} en la atención de bebés en etapa prelingüística
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](img/et1.jpg){width="72%" style="text-align: center;"}
+:::
+
+::: {.column width="40%" style="font-size: 70%;"}
+::: {.fragment}
+-   [160 bebés]{style="color:#7ab7a9;"} de 3–9 meses. 
 :::
 ::: {.fragment .fade-in}
-  -   <span style="color:#eb938a;">EVOLUCIÓN:</span> Tiene propiedades similares al canto, y puede estar en la raíz evolutiva de la música y el lenguaje.
+-   Evaluación [en laboratorio]{style="color:#7ab7a9;"} con *eye-tracking*, análisis de emociones y ritmo cardíaco.
+:::
 :::
 
----
+::::
 
-## ¿Por qué importa el IDS? {auto-animate="true"}
+------------------------------------------------------------------------
 
-- Las capacidades de los bebés para seguir la mirada y atender a la boca del interlocutor predicen el crecimiento del vocabulario. <br>[[ Brooks & Meltzoff, 2008](https://doi.org/10.1017/S030500090700829X); [Çetinçelik et al, 2021](https://doi.org/10.3389/fpsyg.2020.589096); [Fernald et al, 2008](https://doi.org/10.1075/lald.44.06fer); [Tenenbaum et al, 2015](https://doi.org/10.1017/S0305000914000725)]{style="font-size: 50%;"}
+## Diseño estudio 1 {auto-animate="true"}
 
----
+-  **Estudio 1:** Efectos de la manipulación acústica del [IDS]{style="color:#eb938a;"} en la atención de bebés en etapa prelingüística
 
-## ¿Por qué importa el IDS? {auto-animate="true"}
+:::: {.columns}
+
+::: {.column width="50%"}
+-   [160 bebés]{style="color:#7ab7a9;"} de 3–9 meses. 
+:::
+
+::: {.column width="40%" style="font-size: 70%;"}
+![](img/Fig4.svg){width="72%" style="text-align: center;"}
+:::
+
+::::
+
+------------------------------------------------------------------------
+
+## Diseño estudio 1 {auto-animate="true"}
+
+-  **Estudio 1:** Efectos de la manipulación acústica del [IDS]{style="color:#eb938a;"} en la atención de bebés en etapa prelingüística
+
+:::: {.columns}
+
+::: {.column width="50%"}
+-   [160 bebés]{style="color:#7ab7a9;"} de 3–9 meses. 
+:::
+
+::: {.column width="40%" style="font-size: 60%;"}
+-   Diseño factorial 2x2x2 (8 condiciones acústicas).
+-   Medidas:
+    -   *Eye-tracking* (fijaciones visuales)
+    -   Expresiones emocionales (*machine learning*)
+    -   Ritmo cardíaco estimado (*machine learning*)
+:::
+
+::::
+
+------------------------------------------------------------------------
+
+## Diseño estudio 1 {auto-animate="true"}
+
+-  **Estudio 1:** Efectos de la manipulación acústica del [IDS]{style="color:#eb938a;"} en la atención de bebés en etapa prelingüística
+
+:::: {.columns}
+
+::: {.column width="50%"}
+-   [160 bebés]{style="color:#7ab7a9;"} de 3–9 meses. 
+:::
+
+::: {.column width="40%" style="font-size: 60%;"}
+-   Sistema de rastreo ocular infrarrojo de alta precisión.
+-   Validación paralela de sistema cámara web convencional (desarrollo tecnológico).
+-   Exploramos tecnología accesible, **abierta y escalable**.
+:::
+
+::::
+
+------------------------------------------------------------------------
+
+## Diseño estudio 1 {auto-animate="true"}
+
+-  **Estudio 1:** Efectos de la manipulación acústica del [IDS]{style="color:#eb938a;"} en la atención de bebés en etapa prelingüística
+
+:::: {.columns}
+
+::: {.column width="50%"}
+-   [160 bebés]{style="color:#7ab7a9;"} de 3–9 meses. 
+:::
+
+::: {.column width="40%" style="font-size: 60%;"}
+**Inteligencia artificial**
+
+-   Análisis automático de expresiones faciales y emociones.
+-   Estimación del ritmo cardíaco a partir de video (rPPG).
+-   Todo usando herramientas de código abierto.
+:::
+
+::::
+
+------------------------------------------------------------------------
+
+## Diseño estudio 2 {auto-animate="true"}
+
+-  **Estudio 2:** Efectos del [IDS]{style="color:#eb938a;"} en habilidades lingüísticas y musicales posteriores
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](img/est2.avif){width="55%" style="text-align: center;"}
+:::
+
+::: {.column width="40%" style="font-size: 70%;"}
+::: {.fragment}
+-   [480 madres]{style="color:#7ab7a9;"} de bebés de 16–23 meses. 
+:::
+::: {.fragment .fade-in}
+-   Evaluación [en línea]{style="color:#7ab7a9;"}.
+:::
+:::
+
+::::
+
+------------------------------------------------------------------------
+
+## Diseño estudio 2 {auto-animate="true"}
+
+-  **Estudio 2:** Efectos del [IDS]{style="color:#eb938a;"} en habilidades lingüísticas y musicales posteriores
+
+-   [480 madres]{style="color:#7ab7a9;"} de bebés de 16–23 meses. 
+
+![](img/Fig6.svg){width="72%" style="text-align: center;"}
+
+------------------------------------------------------------------------
+
+## Diseño estudio 2 {auto-animate="true"}
+
+-  **Estudio 2:** Efectos del [IDS]{style="color:#eb938a;"} en habilidades lingüísticas y musicales posteriores
+
+:::: {.columns}
+
+::: {.column width="50%"}
+-   [480 madres]{style="color:#7ab7a9;"} de bebés de 16–23 meses. 
+:::
+
+::: {.column width="40%" style="font-size: 60%;"}
+**Datos recolectados:**
+
+-   Videos del IDS materno durante el primer año.
+-   Cuestionarios: CDI y Music\@Home.
+:::
+
+::::
+
+------------------------------------------------------------------------
+
+## Diseño estudio 2 {auto-animate="true"}
+
+- **Estudio 2:** Efectos del [IDS]{style="color:#eb938a;"} en habilidades lingüísticas y musicales posteriores
+
+:::: {.columns}
+::: {.column width="50%"}
+- Videos del IDS materno durante el primer año.
+:::
+
+::: {.column width="50%"}
+<div style="text-align:center;">
+  <video controls playsinline width="40%">
+    <source src="img/bt.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+</div>
+:::
+:::: 
+
+
+------------------------------------------------------------------------
+
+## Ética {auto-animate="true"}
+
+------------------------------------------------------------------------
+
+## Ética {auto-animate="true"}
+
+- **Estudio 1** ya obtuvo aprobación ética (código CIE 2023-059). Sólo cambia *n*.
+
+::: {.fragment .fade-in}
+- **Estudio 2** sin riesgo.
+:::
+
+------------------------------------------------------------------------
+
+## Ética {auto-animate="true"}
+
+- **Estudio 2** sin riesgo.
+
+<iframe 
+  src="https://shiny.jdl-svr.lat/Videos_IDS/" 
+  width="100%" 
+  height="480" 
+  style="border: 3px solid #ccc; border-radius: 8px;" 
+  allowfullscreen>
+</iframe>https://tableconvert.com/es/markdown-generator
+
+------------------------------------------------------------------------
+
+## Equipo {auto-animate="true"}
+
+------------------------------------------------------------------------
+
+## Equipo {auto-animate="true"}
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(gt)
+library(dplyr)
+library(stringr)
+
+# ---- Datos ----
+df <- tribble(
+  ~Nombre,                         ~Grupo,                                ~AfType,            ~Experticia,
+  "Juan David Leongómez",          "CODEC",                               "UEB",              "Análisis de comportamiento",
+  "Milena Vásquez-Amézquita",      "CODEC",                               "UEB",              "Neurociencia",
+  "Nicolás Ignacio Ramos Rodríguez","Investigaciones Pediátricas Bosque",  "UEB",              "Pediatría",
+  "María Catalina Bages Mesa",     "Investigaciones Pediátricas Bosque",  "UEB",              "Pediatría",
+  "Daniel Toro Avila",             "Independiente",                       "Independiente",    "Pediatría",
+  "Adriana Cristancho Arévalo",    "Independiente",                       "Independiente",    "Pediatría",
+  "Ruth Stella Chacon Pinilla",    "Educación e Investigación UNBOSQUE",  "UEB",              "Educación",
+  "Lina M. Rodríguez Granada",     "Psic. de la Salud/Deporte/Clínica",   "UEB",              "Psicología de la música",
+  "Luz H. Buitrago León",          "Psic. de la Salud/Deporte/Clínica",   "UEB",              "Psicología del desarrollo",
+  "Natalia Moreno-Buitrago",       "Externo",                             "OSU",              "Desarrollo musical",
+  "David A. Puts",                 "Externo",                             "PSU",              "Evolución comportamental"
+) %>%
+  mutate(
+    # Ruta al logo según afiliación
+    logo_path = case_when(
+      AfType == "UEB" ~ "img/Logo_UEB.svg",
+      AfType == "OSU" ~ "img/Logo_OSU.svg",
+      AfType == "PSU" ~ "img/Logo_PSU.svg",
+      TRUE            ~ NA_character_
+    ),
+    # Columna que se mostrará en la tabla (logo o texto "Independiente")
+    Afiliacion = if_else(is.na(logo_path), "Independiente", "")
+  )
+
+# ---- Construcción de la tabla gt ----
+tab <- df |>
+  select(Nombre, Grupo, Afiliacion, Experticia) |>
+  gt() |>
+  # Reemplazar celdas de Afiliacion con la imagen cuando exista logo_path
+  text_transform(
+    locations = cells_body(columns = Afiliacion),
+    fn = function(x) {
+      # 'x' es el vector de celdas originales; usamos 'df$logo_path' para decidir
+      mapply(function(cell, logo) {
+        if (!is.na(logo)) {
+          # Imagen local con altura fija para no inflar la fila
+          html(glue::glue("<img src='{logo}' style='height:26px; display:block; margin:0 auto;'>"))
+        } else {
+          # Mantenemos el texto "Independiente"
+          cell
+        }
+      }, x, df$logo_path, SIMPLIFY = FALSE)
+    }
+  ) |>
+  # Etiquetas de columnas
+  cols_label(
+    Nombre     = "Nombre",
+    Grupo      = "Grupo UEB",
+    Afiliacion = "Afiliación",
+    Experticia = "Experticia"
+  ) |>
+  # Alineación
+  cols_align(columns = c(Grupo, Afiliacion, Experticia), align = "center") |>
+  # Estilos de color de fondo por columna Afiliación (con alpha 0.3)
+  tab_style(
+    style = cell_fill(color = "rgba(255,165,0,0.3)"), # naranja UEB
+    locations = cells_body(
+      columns = Afiliacion,
+      rows = df$AfType == "UEB"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "rgba(220,53,69,0.3)"), # rojo OSU
+    locations = cells_body(
+      columns = Afiliacion,
+      rows = df$AfType == "OSU"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "rgba(0,123,255,0.3)"), # azul PSU
+    locations = cells_body(
+      columns = Afiliacion,
+      rows = df$AfType == "PSU"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "rgba(255,255,255,0.3)"), # blanco Independiente
+    locations = cells_body(
+      columns = Afiliacion,
+      rows = df$AfType == "Independiente"
+    )
+  ) |> 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels(columns = everything())
+    ) |>
+  # Opciones visuales para slide
+  tab_options(
+    table.font.size = px(12),          # ~40–50% en Reveal; ajusta a gusto
+    column_labels.font.size = px(13),
+    data_row.padding = px(2),
+    row.striping.include_table_body = TRUE
+  ) |>
+  opt_table_lines(extent = "none") |>
+  fmt_markdown(columns = everything())  # por si hay markdown en alguna celda
+
+tab
+```
+
+------------------------------------------------------------------------
+
+## Cronograma {auto-animate="true"}
+
+![](img/cronograma.png)
+
+-------------------------------------------------------------------------
+
+## Impacto esperado {auto-animate="true"}
+
+-   Contribuye a la ciencia del desarrollo, lenguaje y musicalidad.
+
+::: {.fragment .fade-in}
+-   Aporta evidencia útil para salud materno-infantil y educación inicial.
+:::
+
+::: {.fragment .fade-in}
+-   Modelo replicable y abierto, adaptable a diversos contextos.
+:::
+
+------------------------------------------------------------------------
+
+# ¡Gracias por escuchar!
 
 ::::: columns
 ::: {.column width="50%"}
-- Puede estar en la base de la evolución de la musicalidad y el lenguage.  <br>[[ Leongómez et al, 2022](https://doi.org/10.1098/rstb.2020.0391)]{style="font-size: 50%;"}
+![](img/jdl_qr.svg){width="60%"}
 :::
 
-::::: columns
 ::: {.column width="50%"}
-<img src="img/modelo.svg" width="100%"/>
+<br><br><br> **Juan David Leongómez** [PhD, MSc]{style="font-size: 50%;"}<br> [[jleongomez\@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co)]{style="font-size: 70%;"}<br>
 :::
+:::::
