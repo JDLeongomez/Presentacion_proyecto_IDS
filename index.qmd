@@ -5,7 +5,7 @@ output-dir: docs
 title: Funciones evolutivas del habla dirigida a bebés
 subtitle: Impacto en la atención, las preferencias auditivas y el desarrollo lingüístico y musical temprano
 title-slide-attributes:
-  data-background-image: /img/bebe3.png
+  data-background-image: /img/bebe2.jpg
   data-background-size: contain
   data-background-opacity: "0.6"
 format:
@@ -329,16 +329,11 @@ toc: false
 :::
 :::: 
 
-
 ------------------------------------------------------------------------
 
 ## Ética {auto-animate="true"}
 
-------------------------------------------------------------------------
-
-## Ética {auto-animate="true"}
-
-- **Estudio 1** ya obtuvo aprobación ética (código CIE 2023-059). Sólo cambia *n*.
+- **Estudio 1** ya obtuvo aprobación ética (CIE 2023-059). Sólo cambia *n*.
 
 ::: {.fragment .fade-in}
 - **Estudio 2** sin riesgo.
@@ -357,10 +352,6 @@ toc: false
   style="border: 3px solid #ccc; border-radius: 8px;" 
   allowfullscreen>
 </iframe>https://tableconvert.com/es/markdown-generator
-
-------------------------------------------------------------------------
-
-## Equipo {auto-animate="true"}
 
 ------------------------------------------------------------------------
 
@@ -499,14 +490,22 @@ tab
 
 ------------------------------------------------------------------------
 
-# ¡Gracias por escuchar!
+## ¡Gracias por escuchar! {auto-animate="true" data-autoslide="2000"}
+
+![](img/logo_preview.svg){width="100%"}
+
+------------------------------------------------------------------------
+
+## ¡Gracias por escuchar! {auto-animate="true"}
 
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](img/jdl_qr.svg){width="60%"}
 :::
 
-::: {.column width="50%"}
-<br><br><br> **Juan David Leongómez** [PhD, MSc]{style="font-size: 50%;"}<br> [[jleongomez\@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co)]{style="font-size: 70%;"}<br>
+::: {.column width="60%"}
+**Juan David Leongómez** [PhD, MSc]{style="font-size: 50%;"}<br> [[jleongomez\@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co)]{style="font-size: 70%;"}<br>
+![](img/logo_preview.svg){width="80%"}
 :::
 :::::
+
