@@ -63,7 +63,7 @@ toc: false
 
 ## ¿Qué nos dice una voz? {auto-animate="true" background-image="img/bebe1.png" background-size="cover" background-position="center" background-opacity="0.5"}
 
-> El [IDS]{style="color:#eb938a;"} no solo es "ternura". Es una herramienta poderosa de comunicación emocional, social y cognitiva.
+> El [IDS]{style="color:#eb938a;"} no solo es "ternura". Es una herramienta poderosa de comunicación emocional, social y cognitiva.<br><br> Es necesaria para el desarrollo de las y los bebés y su supervivencia.
 
 ------------------------------------------------------------------------
 
@@ -120,6 +120,8 @@ toc: false
 ------------------------------------------------------------------------
 
 ## ¿Por qué importa el [IDS]{style="color:#eb938a;"}? {auto-animate="true"}
+
+**Predicciones:**
 
 - En humanos, el **cuidado aloparental** implica que las señales de musicalidad de otros cuidadores potenciales pueden indicar confianza y capacidad para cuidar y vincularse con el bebé.
 
@@ -224,7 +226,7 @@ toc: false
 ::: {.column width="40%" style="font-size: 60%;"}
 -   Sistema de rastreo ocular infrarrojo de alta precisión.
 -   Validación paralela de sistema cámara web convencional (desarrollo tecnológico).
--   Exploramos tecnología accesible, **abierta y escalable**.
+-   Generamos tecnología accesible, **abierta y escalable**.
 :::
 
 ::::
@@ -245,7 +247,7 @@ toc: false
 **Inteligencia artificial**
 
 -   Análisis automático de expresiones faciales y emociones.
--   Estimación del ritmo cardíaco a partir de video (rPPG).
+-   Estimación del ritmo cardíaco a partir de video (rPPG - fotopletismografía remota).
 -   Todo usando herramientas de código abierto.
 :::
 
@@ -373,8 +375,8 @@ df <- tribble(
   "Daniel Toro Avila",             "Independiente",                       "Independiente",    "Pediatría",
   "Adriana Cristancho Arévalo",    "Independiente",                       "Independiente",    "Pediatría",
   "Ruth Stella Chacon Pinilla",    "Educación e Investigación UNBOSQUE",  "UEB",              "Educación",
-  "Lina M. Rodríguez Granada",     "Psic. de la Salud/Deporte/Clínica",   "UEB",              "Psicología de la música",
-  "Luz H. Buitrago León",          "Psic. de la Salud/Deporte/Clínica",   "UEB",              "Psicología del desarrollo",
+  "Lina Maria Rodríguez Granada",     "PSADEC-G",   "UEB",              "Psicología de la música",
+  "Luz Helena Buitrago León",          "PSADEC-G",   "UEB",              "Psicología del desarrollo",
   "Natalia Moreno-Buitrago",       "Externo",                             "OSU",              "Desarrollo musical",
   "David A. Puts",                 "Externo",                             "PSU",              "Evolución comportamental"
 ) %>%
