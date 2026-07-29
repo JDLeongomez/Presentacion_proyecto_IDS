@@ -9,10 +9,14 @@ Funciones evolutivas del habla dirigida a bebés
 🔗 **Versión en línea (GitHub Pages):**  
 https://jdleongomez.github.io/Presentacion_proyecto_IDS/
 
+🔗 **Versión para estudiantes de la Especialización en Psicología Clínica y Desarrollo Infantil:**  
+https://jdleongomez.github.io/Presentacion_proyecto_IDS/estudiantes.html
+
 ---
 
 ## Estructura
 - `index.qmd` — Presentación Quarto (Reveal.js)
+- `estudiantes.qmd` — Versión adaptada para estudiantes de la Especialización
 - `img/` — Imágenes y logos (SVG/PNG/JPG)
 
 ## Licencia
