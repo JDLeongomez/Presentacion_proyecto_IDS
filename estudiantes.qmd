@@ -171,102 +171,102 @@ library(stringr)
 
 # ---- Datos ----
 df <- tribble(
-  ~Nombre,                         ~Grupo,                                ~AfType,            ~Experticia,
-  "Juan David Leongómez",          "CODEC",                               "UEB",              "Análisis de comportamiento",
-  "Milena Vásquez-Amézquita",      "CODEC",                               "UEB",              "Neurociencia",
-  "Nicolás Ignacio Ramos Rodríguez","Investigaciones Pediátricas Bosque",  "UEB",              "Pediatría",
-  "María Catalina Bages Mesa",     "Investigaciones Pediátricas Bosque",  "UEB",              "Pediatría",
-  "Daniel Toro Avila",             "Independiente",                       "Independiente",    "Pediatría",
-  "Adriana Cristancho Arévalo",    "Investigaciones Pediátricas Bosque",  "UEB",              "Pediatría",
-  "Ruth Stella Chacon Pinilla",    "Educación e Investigación UNBOSQUE",  "UEB",              "Educación",
-  "Lina Maria Rodríguez Granada",     "PSADEC-G",   "UEB",              "Psicología de la música",
-  "Luz Helena Buitrago León",          "PSADEC-G",   "UEB",              "Psicología del desarrollo",
-  "Natalia Moreno-Buitrago",       "Externo",                             "OSU",              "Desarrollo musical",
-  "David A. Puts",                 "Externo",                             "PSU",              "Evolución comportamental"
+    ~Nombre, ~Grupo, ~AfType, ~Experticia,
+    "Juan David Leongómez", "CODEC", "UEB", "Análisis de comportamiento",
+    "Milena Vásquez-Amézquita", "CODEC", "UEB", "Neurociencia",
+    "Nicolás Ignacio Ramos Rodríguez", "Investigaciones Pediátricas Bosque", "UEB", "Pediatría",
+    "María Catalina Bages Mesa", "Investigaciones Pediátricas Bosque", "UEB", "Pediatría",
+    "Daniel Toro Avila", "Independiente", "Independiente", "Pediatría",
+    "Adriana Cristancho Arévalo", "Investigaciones Pediátricas Bosque", "UEB", "Pediatría",
+    "Ruth Stella Chacon Pinilla", "Educación e Investigación UNBOSQUE", "UEB", "Educación",
+    "Lina Maria Rodríguez Granada", "PSADEC-G", "UEB", "Psicología de la música",
+    "Luz Helena Buitrago León", "PSADEC-G", "UEB", "Psicología del desarrollo",
+    "Natalia Moreno-Buitrago", "Externo", "OSU", "Desarrollo musical",
+    "David A. Puts", "Externo", "PSU", "Evolución comportamental"
 ) %>%
-  mutate(
-    # Ruta al logo según afiliación
-    logo_path = case_when(
-      AfType == "UEB" ~ "img/Logo_UEB.svg",
-      AfType == "OSU" ~ "img/Logo_OSU.svg",
-      AfType == "PSU" ~ "img/Logo_PSU.svg",
-      TRUE            ~ NA_character_
-    ),
-    # Columna que se mostrará en la tabla (logo o texto "Independiente")
-    Afiliacion = if_else(is.na(logo_path), "Independiente", "")
-  )
+    mutate(
+        # Ruta al logo según afiliación
+        logo_path = case_when(
+            AfType == "UEB" ~ "img/Logo_UEB.svg",
+            AfType == "OSU" ~ "img/Logo_OSU.svg",
+            AfType == "PSU" ~ "img/Logo_PSU.svg",
+            TRUE ~ NA_character_
+        ),
+        # Columna que se mostrará en la tabla (logo o texto "Independiente")
+        Afiliacion = if_else(is.na(logo_path), "Independiente", "")
+    )
 
 # ---- Construcción de la tabla gt ----
 tab <- df |>
-  select(Nombre, Grupo, Afiliacion, Experticia) |>
-  gt() |>
-  # Reemplazar celdas de Afiliacion con la imagen cuando exista logo_path
-  text_transform(
-    locations = cells_body(columns = Afiliacion),
-    fn = function(x) {
-      # 'x' es el vector de celdas originales; usamos 'df$logo_path' para decidir
-      mapply(function(cell, logo) {
-        if (!is.na(logo)) {
-          # Imagen local con altura fija para no inflar la fila
-          html(glue::glue("<img src='{logo}' style='height:26px; display:block; margin:0 auto;'>"))
-        } else {
-          # Mantenemos el texto "Independiente"
-          cell
+    select(Nombre, Grupo, Afiliacion, Experticia) |>
+    gt() |>
+    # Reemplazar celdas de Afiliacion con la imagen cuando exista logo_path
+    text_transform(
+        locations = cells_body(columns = Afiliacion),
+        fn = function(x) {
+            # 'x' es el vector de celdas originales; usamos 'df$logo_path' para decidir
+            mapply(function(cell, logo) {
+                if (!is.na(logo)) {
+                    # Imagen local con altura fija para no inflar la fila
+                    html(glue::glue("<img src='{logo}' style='height:26px; display:block; margin:0 auto;'>"))
+                } else {
+                    # Mantenemos el texto "Independiente"
+                    cell
+                }
+            }, x, df$logo_path, SIMPLIFY = FALSE)
         }
-      }, x, df$logo_path, SIMPLIFY = FALSE)
-    }
-  ) |>
-  # Etiquetas de columnas
-  cols_label(
-    Nombre     = "Nombre",
-    Grupo      = "Grupo UEB",
-    Afiliacion = "Afiliación",
-    Experticia = "Experticia"
-  ) |>
-  # Alineación
-  cols_align(columns = c(Grupo, Afiliacion, Experticia), align = "center") |>
-  # Estilos de color de fondo por columna Afiliación (con alpha 0.3)
-  tab_style(
-    style = cell_fill(color = "rgba(255,165,0,0.3)"), # naranja UEB
-    locations = cells_body(
-      columns = Afiliacion,
-      rows = df$AfType == "UEB"
-    )
-  ) |>
-  tab_style(
-    style = cell_fill(color = "rgba(220,53,69,0.3)"), # rojo OSU
-    locations = cells_body(
-      columns = Afiliacion,
-      rows = df$AfType == "OSU"
-    )
-  ) |>
-  tab_style(
-    style = cell_fill(color = "rgba(0,123,255,0.3)"), # azul PSU
-    locations = cells_body(
-      columns = Afiliacion,
-      rows = df$AfType == "PSU"
-    )
-  ) |>
-  tab_style(
-    style = cell_fill(color = "rgba(255,255,255,0.3)"), # blanco Independiente
-    locations = cells_body(
-      columns = Afiliacion,
-      rows = df$AfType == "Independiente"
-    )
-  ) |>
-  tab_style(
-    style = cell_text(weight = "bold"),
-    locations = cells_column_labels(columns = everything())
     ) |>
-  # Opciones visuales para slide
-  tab_options(
-    table.font.size = px(12),          # ~40–50% en Reveal; ajusta a gusto
-    column_labels.font.size = px(13),
-    data_row.padding = px(2),
-    row.striping.include_table_body = TRUE
-  ) |>
-  opt_table_lines(extent = "none") |>
-  fmt_markdown(columns = everything())  # por si hay markdown en alguna celda
+    # Etiquetas de columnas
+    cols_label(
+        Nombre     = "Nombre",
+        Grupo      = "Grupo UEB",
+        Afiliacion = "Afiliación",
+        Experticia = "Experticia"
+    ) |>
+    # Alineación
+    cols_align(columns = c(Grupo, Afiliacion, Experticia), align = "center") |>
+    # Estilos de color de fondo por columna Afiliación (con alpha 0.3)
+    tab_style(
+        style = cell_fill(color = "rgba(255,165,0,0.3)"), # naranja UEB
+        locations = cells_body(
+            columns = Afiliacion,
+            rows = df$AfType == "UEB"
+        )
+    ) |>
+    tab_style(
+        style = cell_fill(color = "rgba(220,53,69,0.3)"), # rojo OSU
+        locations = cells_body(
+            columns = Afiliacion,
+            rows = df$AfType == "OSU"
+        )
+    ) |>
+    tab_style(
+        style = cell_fill(color = "rgba(0,123,255,0.3)"), # azul PSU
+        locations = cells_body(
+            columns = Afiliacion,
+            rows = df$AfType == "PSU"
+        )
+    ) |>
+    tab_style(
+        style = cell_fill(color = "rgba(255,255,255,0.3)"), # blanco Independiente
+        locations = cells_body(
+            columns = Afiliacion,
+            rows = df$AfType == "Independiente"
+        )
+    ) |>
+    tab_style(
+        style = cell_text(weight = "bold"),
+        locations = cells_column_labels(columns = everything())
+    ) |>
+    # Opciones visuales para slide
+    tab_options(
+        table.font.size = px(12), # ~40–50% en Reveal; ajusta a gusto
+        column_labels.font.size = px(13),
+        data_row.padding = px(2),
+        row.striping.include_table_body = TRUE
+    ) |>
+    opt_table_lines(extent = "none") |>
+    fmt_markdown(columns = everything()) # por si hay markdown en alguna celda
 
 tab
 ```
@@ -309,7 +309,7 @@ tab
 
 ------------------------------------------------------------------------
 
-## El proyecto para ustedes {auto-animate="true" .smaller}
+## La propuesta para ustedes {auto-animate="true" .smaller}
 
 **Creencias y conocimientos de madres y padres colombianos sobre el habla dirigida a bebés ([IDS]{style="color:#eb938a;"})**
 
